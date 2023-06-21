@@ -138,6 +138,7 @@ button {
 }
 
 .address {
+  
     font-style: normal;
 }
 
@@ -179,7 +180,7 @@ button {
 .main {}
 
 .section-hero {
-    padding: 188px 0;
+    
     background-color: #2e2f42;
 }
 
@@ -222,7 +223,8 @@ button {
 
 /*Section 1*/
 .section {
-     padding: 120px;
+    padding: 120px 0;
+        padding: 188px 0;
     background-color: #FFFFFF
 }
 .container {
@@ -231,8 +233,8 @@ button {
 
 
 .section-list {
+    gap: 24px;
     display: flex;
-        gap: 24px;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -357,8 +359,8 @@ button {
 }
 
 .footer-link {
-    margin-bottom: 16px;
     display: inline-block;
+    margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -369,6 +371,7 @@ button {
 }
 
 .footer-link-stydio {
+    display: inline-block;
     color: #F4F4FD;
 }
 
