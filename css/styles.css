@@ -183,6 +183,7 @@ button {
 
 /*Hero image*/
 .section-hero {
+    padding: 188px 0;
     padding: 120px 0;
     background-color: #2e2f42;
 }
@@ -227,6 +228,7 @@ button {
 
 /*Section 1*/
 .section {
+
     padding: 120px 0;
         padding: 188px 0;
     background-color: #FFFFFF
@@ -273,6 +275,7 @@ button {
 
 /*What are we doing section*/
 .section-doing {
+    padding: 120px 0;
     padding-bottom: 120px;
 }
 
@@ -291,14 +294,15 @@ button {
 }
 
 .section-doing-list {
-    display: flex;
     gap: 24px;
+    display: flex;
 }
 .section-doing-item {
-    width: calc((100% - 48px) / 3);
+    width: calc((100% - 72px) / 4);
 }
 
 .section-doing-img {
+
     display: block;
 }
 
@@ -428,10 +432,15 @@ gap: 40px;
 }
 
 .section-filters-list {
+display: flex;
+justify-content: center;
+gap: 24px;
     margin-bottom: 72px;
 }
 
-.section-filter-item {}
+.section-filter-item {
+    width: calc((100% - 48px) / 3);
+}
 
 .section-filters-btn {
     border-radius: 4px;
@@ -470,7 +479,6 @@ width: calc((100% - 48px) / 3);
 }
 
 .section-img {
-width: calc((100% - 48px) / 3);
     display: block;
 }
 .name {
