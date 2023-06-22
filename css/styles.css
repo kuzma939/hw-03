@@ -177,15 +177,19 @@ button {
 }
 
 /*Main block*/
-.main {}
-
-.section-hero {
-    
-    background-color: #2e2f42;
+.main {
+    padding: 188px 0;
 }
 
 /*Hero image*/
+.section-hero {
+    padding: 120px 0;
+    background-color: #2e2f42;
+}
+
+.container {}
 .hero-title {
+   
     max-width: 496px;
     font-style: normal;
     font-weight: 700;
@@ -233,6 +237,7 @@ button {
 
 
 .section-list {
+
     gap: 24px;
     display: flex;
     font-style: normal;
@@ -247,6 +252,7 @@ button {
 }
 
 .section-title {
+    width: calc((100% - 72px) / 4);
     margin-bottom: 8px;
     font-style: normal;
     font-weight: 500;
@@ -460,11 +466,11 @@ gap: 40px;
 }
 
 .section-item {
-    width: calc((100% - 48px) / 3);
+width: calc((100% - 48px) / 3);
 }
 
 .section-img {
-
+width: calc((100% - 48px) / 3);
     display: block;
 }
 .name {
