@@ -236,7 +236,7 @@ background-color: #FFFFFF;
 .container {
 
 }
-
+.visually-hidden {}
 
 .section-list {
  font-style: normal;
@@ -429,7 +429,8 @@ gap: 40px;
     padding-top: 96px;
         padding-bottom: 120px;
 }
-
+.container {}
+.visually-hidden {}
 .section-filters-list {
 display: flex;
 justify-content: center;
