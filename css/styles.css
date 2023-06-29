@@ -236,7 +236,7 @@ padding-top: 24px;
         border-radius: 4px;
     margin: 0 auto;
 }
-
+  
 
 .hero-btn:hover {
     background-color: #404BBF;
@@ -256,7 +256,7 @@ background-color: #FFFFFF;
 
 }
 .visually-hidden {
-    position: absolute;
+position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -267,6 +267,8 @@ background-color: #FFFFFF;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+   
+
 
 .section-list {
 font-style: normal;
@@ -275,8 +277,8 @@ font-style: normal;
     line-height: 1.5;
     color: #2E2F42;
     display: flex;
-   flex-wrap: wrap;
-gap: 24px;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 
 .section-item-hero {
@@ -539,6 +541,8 @@ width: calc((100% - 48px) / 3);
 
 .section-pr {
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;}
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+ 
