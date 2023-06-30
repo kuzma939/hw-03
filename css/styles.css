@@ -284,6 +284,7 @@ font-style: normal;
     gap: 24px;
 }
 
+
 .section-item-hero {
 width: calc((100% - 72px) / 4);
     
@@ -505,13 +506,14 @@ margin-bottom: 72px;
     color: #FFFFFF;
     background-color: #404BBF;
 }
-
-.section-list {
+.section-list-portfolio {
     display: flex;
     flex-wrap: wrap;
- gap: 24px;
-row-gap: 48px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
+
+
 
 .section-item {
 width: calc((100% - 48px) / 3);
