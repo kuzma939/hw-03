@@ -363,17 +363,21 @@ width: calc((100% - 48px) / 3);
 .section-team-list {
     display: flex;
     gap: 24px;
-    background-color: #FFFFFF;
+   
 }
 
 .section-team-item {
+    width: 264px;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF
 }
 
 .section-team-img {
+    width: 264px;
     display: block;
+
+
 }
 .name {
     padding: 32px 16px;
